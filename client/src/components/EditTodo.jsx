@@ -30,8 +30,8 @@ function EditTodo({todo}) {
       <button
         type="button"
         className="btn btn-warning"
-        data-bs-toggle="modal"
-        data-bs-target={`#id${todo.todo_id}`}
+        data-bs-toggle="modal" 
+        data-bs-target={`#id${todo.todo_id}`}  // id fetch krrh rh h
         onClick={() => setDescription(todo.description)} 
       >
         Edit
