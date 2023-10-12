@@ -19,13 +19,13 @@ function EditTodo({todo}) {
                 body:JSON.stringify(body)
               })   //we have use backtick here for diplaying value of id
 
-              window.location = "/"  //refreshing the code
+              window.location = "/"  //refreshing the code 
         }catch(err){
             console.log(err.message)
         }
     }
 
-  return (
+  return 
     <>
       <button
         type="button"
